@@ -14,7 +14,7 @@ var distPaths = {
 
 var server = {
   host: 'localhost',
-  port: '3000'
+  port: '4000'
 }
 
 // Compile scss files to css
