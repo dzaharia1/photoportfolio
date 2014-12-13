@@ -15,19 +15,15 @@ portfolio.config(function ($routeProvider) {
 albumController = function ($scope) {
     //    controller logic
     $scope.albums = albumList;
-    $scope.photos = photoList;
     console.log('album');
 };
 
 galleryController = function ($scope, $routeParams) {
     $scope.albums = albumList;
-    $scope.photos = photoList;
-    $scope.currAlbum = $routeParams.label.substr(1);
+    var albumLabel = $routeParams.label.substr(1);
     for (var i = 0; i < albumList.length; i++){
-        if (albumList[i].displayName == $scope.currAlbum){
-            $scope.albumLocation = albumList[i].location;
-            $scope.albumCover = albumList[i].cover;
-            console.log(albumList[i].cover);
+        if (albumList[i].displayName == albumLabel){
+            $scope.currAlbum = albumList[i];
         }
     }
 };
