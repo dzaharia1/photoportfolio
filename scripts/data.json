@@ -1,0 +1,77 @@
+var albumList = [
+    {
+        displayName:"Pedernales Falls",
+        visible:"false"
+    },
+    {
+        displayName:"Bull Creek",
+        visible:"true"
+    },
+    {
+        displayName:"Barton Creek",
+        visible:"true"
+    },
+    {
+        displayName:"Enchanted Rock",
+        visible:"true"
+    }
+];
+
+var photoList = [
+    {
+        path:"/img/bull_creek_roots.jpg",
+        album:"Bull Creek"
+    },
+    {
+        path:"/img/bull_creek_corrosion.jpg",
+        album:"Bull Creek"
+    },
+    {
+        path:"/img/bull_creek_waterfall.jpg",
+        album:"Bull Creek"
+    },
+    {
+        path:"/img/enchanted_rock_bush_sunset.jpg",
+        album:"Enchanted Rock"
+    },
+    {
+        path:"/img/enchanted_rock_guys_sitting.jpg",
+        album:"Enchanted Rock"
+    },
+    {
+        path:"/img/enchanted_rock_guys_standing.jpg",
+        album:"Enchanted Rock"
+    },
+    {
+        path:"/img/enchanted_rock_macro.jpg",
+        album:"Enchanted Rock"
+    },
+    {
+        path:"/img/enchanted_rock_rock_history.jpg",
+        album:"Enchanted Rock"
+    },
+    {
+        path:"/img/enchanted_rock_sillhouette.jpg",
+        album:"Enchanted Rock"
+    },
+    {
+        path:"/img/barton_cliff_tree.jpg",
+        album:"Barton Creek"
+    },
+    {
+        path:"/img/barton_creek.jpg",
+        album:"Barton Creek"
+    },
+    {
+        path:"/img/barton_floating_leaf.jpg",
+        album:"Barton Creek"
+    },
+    {
+        path:"/img/barton_tree_shadow.jpg",
+        album:"Barton Creek"
+    },
+    {
+        path:"/img/barton_wet_leaves.jpg",
+        album:"Barton Creek"
+    }
+]

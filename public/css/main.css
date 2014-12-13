@@ -1,0 +1,129 @@
+.fontLight {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 0.1em; }
+
+.fontMedium {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.2em; }
+
+.fontBold, footer h1 {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2em; }
+
+.fontBlack, .albumTile p {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.2em; }
+
+body {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000; }
+
+.viewWindow {
+  padding-bottom: 8vh; }
+
+.albumTile {
+  margin-top: 20px;
+  margin-bottom: 40px; }
+  .albumTile .cover {
+    width: 90%;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 20px; }
+    .albumTile .cover .albumFrame {
+      height: 35vh;
+      width: 32%;
+      background-position: center;
+      -moz-background-size: cover;
+           background-size: cover;
+      background-repeat: no-repeat; }
+  .albumTile p {
+    font-size: 0.8em;
+    margin: 10px 0;
+    text-transform: uppercase; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 8vh;
+  background-color: #000;
+  opacity: 0.9;
+  -moz-transition: opacity 0.2s;
+       transition: opacity 0.2s;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 0;
+  width: 100%;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  footer h1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.45em; }
+
+footer:hover {
+  opacity: 1; }
+
+@media screen and (min-width: 600px) {
+  .albumTile .cover {
+    width: 70%; }
+
+  footer {
+    height: 10vh; }
+    footer h1 {
+      font-size: 1.2em;
+      letter-spacing: 0.7em; }
+ }
+
+@media (min-width: 1000px) {
+  .albumTile .cover {
+    width: 60%; }
+
+  .albumFrame {
+    height: 60vh; }
+ }
+
+.horizontalFlexCenter, .albumTile .cover {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.verticalFlexCenter, .albumTile {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
