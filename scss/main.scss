@@ -8,7 +8,6 @@ body {} body {
     //    width: 100%;
     background-color: $black;
     color: $white;
-    //    @extend .verticalFlexCenter;
 
 }
 h2 {
@@ -37,79 +36,84 @@ aside {
 .viewWindow {
     height: 100vh;
     overflow: scroll;
+    @extend .verticalFlexCenter;
 }
-.albumList{
-    .albumTile:first-child{
+.galleryViewWindow{
+    height: 100vh;
+    overflow: scroll;
+}
+.albumList {
+    @extend .verticalFLexCenter;
+    width: 90%;
+    .albumTile:first-child {
         margin-top: 20px;
     }
-}
-.albumTile {
-    @extend .verticalFlexCenter;
-    margin-bottom: $footerHeight;
-
-    .cover {
-        @extend .horizontalFlexCenter;
-        width: 90%;
-        justify-content: space-between;
-        .albumFrame {
-            height: $coverHeight;
-            flex: 1;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
+    .albumTile {
+        margin-bottom: $footerHeight;
+        width: 100%;
+        .cover {
+            @extend .horizontalFlexCenter;
+            width: 100%;
+            justify-content: space-between;
+            .albumFrame {
+                height: $coverHeight;
+                flex: 1;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        .albumHeader {
+            @extend .verticalFlexCenter;
+            justify-content: center;
+            height: $footerHeight;
+            background-color: $black;
+            opacity: .7;
+            position: relative;
+            bottom: $footerHeight;
+            margin-bottom: -$footerHeight;
+            width: 100%;
+            transition: opacity .2s;
+            p {
+                text-transform: uppercase;
+                margin-bottom: 4px;
+            }
         }
     }
+}
+.albumTile:hover {
     .albumHeader {
-        @extend .verticalFlexCenter;
-        justify-content: center;
-        height: $footerHeight;
-        background-color: $black;
-        opacity: .7;
-        position: relative;
-        bottom: $footerHeight;
-        margin-bottom: -$footerHeight;
-        width: 90%;
-        transition: opacity .2s;
-        p {
-            text-transform: uppercase;
-            margin-bottom: 4px;
-        }
-    }
-}
-.albumTile:hover{
-    .albumHeader{
         opacity: 1;
     }
 }
 .galleryList {
     margin-bottom: 10px;
     @extend .verticalFlexCenter;
-    .galleryCover{
+    .galleryCover {
         @extend .verticalFlexCenter;
         justify-content: center;
         background-repeat: no-repeat;
-        background-position: 0% 100%;
-        background-size: 300%;
+        background-position: center;
+        background-size: cover;
         background-blend-mode: multiply;
         height: 85vh - $footerHeight;
         width: 100%;
         margin-bottom: 20px;
         padding-bottom: $footerHeight;
         text-shadow: 0 0 10px rgba(0, 0, 0, .6);
-        h1{
+        h1 {
             margin-bottom: 15px;
         }
     }
     .galleryImage {
         @extend .verticalFlexCenter;
-        width: 95%;
+        width: 90%;
         text-decoration: none;
         margin-bottom: 40px;
         background-color: $black;
         img {
             width: 100%;
         }
-
     }
 }
 footer {
@@ -134,12 +138,17 @@ footer {
 }
 //responsiveness
 @media screen and (min-width: 600px) {
-    .albumTile .cover {
-        width: 70%;
+    .albumList{
+        width: 60%;
     }
-    .galleryList{
-        .galleryCover{
+    .galleryList {
+        .galleryCover {
             height: 40vh;
+        }
+        .galleryImage{
+            img{
+                width: 80%;
+            }
         }
     }
     footer {
@@ -151,19 +160,22 @@ footer {
     $footerHeight:10vh;
 }
 @media (min-width: 1000px) {
-    .albumTile {
-        .cover {
-            width: 60%;
-            .albumFrame {
-                height: 80vh;
-            }
-        }
+    .albumList{
+        width: 700px;
+        $coverHeight: 1100px
     }
     .galleryList {
+        .galleryCover {
+            h2 {
+                font-size: 2em;
+            }
+            p {
+                font-size: 1em;
+            }
+        }
         .galleryImage {
+            margin-bottom: 60px;
             img {
-//                width: auto;
-//                max-height:85vh;
                 max-width: 1024px;
             }
         }
