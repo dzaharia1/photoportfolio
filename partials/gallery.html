@@ -1,10 +1,12 @@
 <div class="galleryViewWindow">
-    <section ng-controller="galleryController" class="galleryList">
+    <section class="galleryList">
         <div class="galleryCover" style="background-image: url({{currAlbum.cover}})">
-            <h2>{{currAlbum.displayName}}</h2>
-            <p>{{currAlbum.location}}</p>
+            <div class="header">
+                <h2>{{currAlbum.displayName}}</h2>
+                <aside>{{currAlbum.location}}</aside>
+            </div>
         </div>
-        <a href="{{photo.path}}" class="galleryImage" ng-repeat="photo in currAlbum.photos">
+        <a href="{{photo.path}}" target="_blank" class="galleryImage" ng-repeat="photo in currAlbum.photos">
             <img src="{{photo.path}}" alt="">
         </a>
     </section>
