@@ -1,0 +1,11 @@
+<div class="viewWindow">
+    <section ng-controller="galleryController" class="galleryList">
+        <div class="galleryCover" style="background-image: url({{albumCover}})">
+            <h2>{{currAlbum}}</h2>
+            <p>{{albumLocation}}</p>
+        </div>
+        <a href="{{photo.path}}" class="galleryImage" ng-repeat="photo in photos | filter:photo.album = currAlbum">
+            <img src="{{photo.path}}" alt="">
+        </a>
+    </section>
+</div>
