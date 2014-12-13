@@ -29,7 +29,7 @@ var albumList = [
 
 
     {
-        displayName:"Barton Creek",
+        displayName:"Barton Creek Trail",
         location:"Austin, TX",
         cover: "/img/barton_floating_leaf.jpg",
         visible:"true",
@@ -64,19 +64,19 @@ var albumList = [
                 path:"/img/enchanted_rock_guys_sitting.jpg"
             },
             {
-                path:"/img/enchanted_rock_guys_standing.jpg"
+                path:"/img/enchanted_rock_sillhouette.jpg"
             },
             {
                 path:"/img/enchanted_rock_macro.jpg"
             },
             {
-                path:"/img/enchanted_rock_bush_sunset.jpg"
-            },
-            {
                 path:"/img/enchanted_rock_rock_history.jpg"
             },
             {
-                path:"/img/enchanted_rock_sillhouette.jpg"
+                path:"/img/enchanted_rock_guys_standing.jpg"
+            },
+            {
+                path:"/img/enchanted_rock_bush_sunset.jpg"
             }
 
         ]
