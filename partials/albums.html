@@ -2,7 +2,7 @@
     <section class="albumList" ng-controller="albumController">
         <div class="albumTile" ng-repeat="album in albums | filter:album.visible = true">
             <a href="#/album:{{album.displayName}}" class="cover">
-                <div class="albumFrame" style="background-image: url({{photo.path}})" ng-repeat="photo in photos | filter:album.displayName | limitTo:3 ">
+                <div class="albumFrame" style="background-image: url({{photo.path}})" ng-repeat="photo in album.photos | limitTo:3 ">
                 </div>
             </a>
             <div class="albumHeader">
