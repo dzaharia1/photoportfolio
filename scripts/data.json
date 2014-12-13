@@ -1,18 +1,26 @@
 var albumList = [
     {
-        displayName:"Pedernales Falls",
+        displayName:"Pedernales Falls State Park",
+        location:"Johnson City, TX",
+        cover: "",
         visible:"false"
     },
     {
-        displayName:"Bull Creek",
+        displayName:"Bull Creek District Park",
+        location:"Austin, TX",
+        cover: "/img/bull_creek_waterfall.jpg",
         visible:"true"
     },
     {
         displayName:"Barton Creek",
+        location:"Austin, TX",
+        cover: "",
         visible:"true"
     },
     {
         displayName:"Enchanted Rock",
+        location:"Llano, TX",
+        cover: "/img/enchanted_rock_bush_sunset.jpg",
         visible:"true"
     }
 ];
@@ -20,15 +28,15 @@ var albumList = [
 var photoList = [
     {
         path:"/img/bull_creek_roots.jpg",
-        album:"Bull Creek"
+        album:"Bull Creek District Park"
     },
     {
         path:"/img/bull_creek_corrosion.jpg",
-        album:"Bull Creek"
+        album:"Bull Creek District Park"
     },
     {
         path:"/img/bull_creek_waterfall.jpg",
-        album:"Bull Creek"
+        album:"Bull Creek District Park"
     },
     {
         path:"/img/enchanted_rock_bush_sunset.jpg",
