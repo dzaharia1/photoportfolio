@@ -6,51 +6,121 @@ body {} body {
     margin: 0;
     padding: 0;
     //    width: 100%;
-    background-color: $white;
-    color: $black;
+    background-color: $black;
+    color: $white;
     //    @extend .verticalFlexCenter;
 
 }
+h2 {
+    @extend .fontBlack;
+    //    margin: 10px 0 0 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+a {
+    text-decoration: none;
+}
+p {
+    @extend .fontBlack;
+    font-size: .8em;
+    margin: 0;
+}
+aside {
+    @extend .fontLight;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin: 0;
+}
 .viewWindow {
-    padding-bottom: $footerHeight;
+    height: 100vh;
+    overflow: scroll;
+}
+.albumList{
+    .albumTile:first-child{
+        margin-top: 20px;
+    }
 }
 .albumTile {
     @extend .verticalFlexCenter;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: $footerHeight;
+
     .cover {
         @extend .horizontalFlexCenter;
         width: 90%;
         justify-content: space-between;
-        margin-bottom: 20px;
         .albumFrame {
             height: $coverHeight;
-            width: 32%;
+            flex: 1;
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
-//            transition: height .2s, width .2s;
         }
     }
-    p {
-        @extend .fontBlack;
-        font-size: .8em;
-        margin: 10px 0;
-        text-transform: uppercase;
+    .albumHeader {
+        @extend .verticalFlexCenter;
+        justify-content: center;
+        height: $footerHeight;
+        background-color: $black;
+        opacity: .7;
+        position: relative;
+        bottom: $footerHeight;
+        margin-bottom: -$footerHeight;
+        width: 90%;
+        transition: opacity .2s;
+        p {
+            text-transform: uppercase;
+            margin-bottom: 4px;
+        }
+    }
+}
+.albumTile:hover{
+    .albumHeader{
+        opacity: 1;
+    }
+}
+.galleryList {
+    margin-bottom: 10px;
+    @extend .verticalFlexCenter;
+    .galleryCover{
+        @extend .verticalFlexCenter;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: 0% 100%;
+        background-size: 300%;
+        background-blend-mode: multiply;
+        height: 85vh - $footerHeight;
+        width: 100%;
+        margin-bottom: 20px;
+        padding-bottom: $footerHeight;
+        text-shadow: 0 0 10px rgba(0, 0, 0, .6);
+        h1{
+            margin-bottom: 15px;
+        }
+    }
+    .galleryImage {
+        @extend .verticalFlexCenter;
+        width: 95%;
+        text-decoration: none;
+        margin-bottom: 40px;
+        background-color: $black;
+        img {
+            width: 100%;
+        }
+
     }
 }
 footer {
     position: fixed;
     bottom: 0;
-    //    top: 0;
-    height: $footerHeight;
     background-color: $black;
-    opacity: .9;
-    transition: opacity .2s;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    opacity: .7;
     margin: 0;
     width: 100%;
     justify-content: center;
+    height: $footerHeight;
     h1 {
         width: 100%;
         margin: 0;
@@ -62,28 +132,41 @@ footer {
         @extend .fontBold;
     }
 }
-footer:hover {
-    opacity: 1;
-}
 //responsiveness
 @media screen and (min-width: 600px) {
     .albumTile .cover {
         width: 70%;
     }
-    footer{
-        height: 10vh;
-        h1{
+    .galleryList{
+        .galleryCover{
+            height: 40vh;
+        }
+    }
+    footer {
+        h1 {
             font-size: 1.2em;
             letter-spacing: .7em;
         }
     }
+    $footerHeight:10vh;
 }
-@media (min-width: 1000px){
-    .albumTile .cover{
-        width: 60%;
+@media (min-width: 1000px) {
+    .albumTile {
+        .cover {
+            width: 60%;
+            .albumFrame {
+                height: 80vh;
+            }
+        }
     }
-    .albumFrame{
-        height: 60vh;
+    .galleryList {
+        .galleryImage {
+            img {
+//                width: auto;
+//                max-height:85vh;
+                max-width: 1024px;
+            }
+        }
     }
 }
 //grids
