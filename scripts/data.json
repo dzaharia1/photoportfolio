@@ -3,83 +3,82 @@ var albumList = [
         displayName:"Pedernales Falls State Park",
         location:"Johnson City, TX",
         cover: "",
-        visible:"false"
+        visible:"false",
+        photos:[
+        ]
     },
+
+
     {
         displayName:"Bull Creek District Park",
         location:"Austin, TX",
         cover: "/img/bull_creek_waterfall.jpg",
-        visible:"true"
+        visible:"true",
+        photos:[
+            {
+                path:"/img/bull_creek_roots.jpg"
+            },
+            {
+                path:"/img/bull_creek_corrosion.jpg"
+            },
+            {
+                path:"/img/bull_creek_waterfall.jpg"
+            }
+        ]
     },
+
+
     {
         displayName:"Barton Creek",
         location:"Austin, TX",
-        cover: "",
-        visible:"true"
+        cover: "/img/barton_floating_leaf.jpg",
+        visible:"true",
+        photos:[
+            {
+                path:"/img/barton_cliff_tree.jpg"
+            },
+            {
+                path:"/img/barton_creek.jpg"
+            },
+            {
+                path:"/img/barton_floating_leaf.jpg"
+            },
+            {
+                path:"/img/barton_tree_shadow.jpg"
+            },
+            {
+                path:"/img/barton_wet_leaves.jpg"
+            }
+
+        ]
     },
+
+
     {
         displayName:"Enchanted Rock",
         location:"Llano, TX",
         cover: "/img/enchanted_rock_bush_sunset.jpg",
-        visible:"true"
+        visible:"true",
+        photos:[
+            {
+                path:"/img/enchanted_rock_guys_sitting.jpg"
+            },
+            {
+                path:"/img/enchanted_rock_guys_standing.jpg"
+            },
+            {
+                path:"/img/enchanted_rock_macro.jpg"
+            },
+            {
+                path:"/img/enchanted_rock_bush_sunset.jpg"
+            },
+            {
+                path:"/img/enchanted_rock_rock_history.jpg"
+            },
+            {
+                path:"/img/enchanted_rock_sillhouette.jpg"
+            }
+
+        ]
     }
 ];
-
-var photoList = [
-    {
-        path:"/img/bull_creek_roots.jpg",
-        album:"Bull Creek District Park"
-    },
-    {
-        path:"/img/bull_creek_corrosion.jpg",
-        album:"Bull Creek District Park"
-    },
-    {
-        path:"/img/bull_creek_waterfall.jpg",
-        album:"Bull Creek District Park"
-    },
-    {
-        path:"/img/enchanted_rock_bush_sunset.jpg",
-        album:"Enchanted Rock"
-    },
-    {
-        path:"/img/enchanted_rock_guys_sitting.jpg",
-        album:"Enchanted Rock"
-    },
-    {
-        path:"/img/enchanted_rock_guys_standing.jpg",
-        album:"Enchanted Rock"
-    },
-    {
-        path:"/img/enchanted_rock_macro.jpg",
-        album:"Enchanted Rock"
-    },
-    {
-        path:"/img/enchanted_rock_rock_history.jpg",
-        album:"Enchanted Rock"
-    },
-    {
-        path:"/img/enchanted_rock_sillhouette.jpg",
-        album:"Enchanted Rock"
-    },
-    {
-        path:"/img/barton_cliff_tree.jpg",
-        album:"Barton Creek"
-    },
-    {
-        path:"/img/barton_creek.jpg",
-        album:"Barton Creek"
-    },
-    {
-        path:"/img/barton_floating_leaf.jpg",
-        album:"Barton Creek"
-    },
-    {
-        path:"/img/barton_tree_shadow.jpg",
-        album:"Barton Creek"
-    },
-    {
-        path:"/img/barton_wet_leaves.jpg",
-        album:"Barton Creek"
-    }
-]
