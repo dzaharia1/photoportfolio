@@ -117,7 +117,8 @@ aside {
         margin-bottom: 40px;
         background-color: $black;
         img {
-            width: 100%;
+            max-width: 100%;
+            max-height: 80vh;
             border: 1px #1c1c1c solid;
         }
     }
@@ -152,7 +153,7 @@ footer {
         }
         .galleryImage{
             img{
-                width: 80%;
+                max-width: 80%;
             }
         }
     }
