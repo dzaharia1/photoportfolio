@@ -23,6 +23,21 @@ var albumList = [
             },
             {
                 path:"/img/bull_creek_waterfall.jpg"
+            },
+            {
+                path:"/img/bull_creek_gradient_stream.jpg"
+            },
+            {
+                path:"/img/bull_creek_christmas_tree.jpg"
+            },
+            {
+                path:"/img/bull_creek_rock_hole.jpg"
+            },
+            {
+                path:"/img/bull_creek_dead_roots.jpg"
+            },
+            {
+                path:"/img/bull_creek_leaf_cluster.jpg"
             }
         ]
     },
