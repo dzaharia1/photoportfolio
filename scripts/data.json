@@ -95,5 +95,35 @@ var albumList = [
             }
 
         ]
+    },
+    
+    {
+        displayName:"Golf Course",
+        location:"Austin, TX",
+        cover: "",
+        visible: "false",
+        photos:[
+            {
+                path:"golf_course_dot_reflect.jpg"
+            },
+            {
+                path:"golf_course_night_barn.jpg"
+            },
+            {
+                path:"golf_course_photographer.jpg"
+            },
+            {
+                path:"golf_course_reflected_christmas.jpg"
+            },
+            {
+                path:"golf_course_reflected_christmas_1.jpg"
+            },
+            {
+                path:"golf_course_reflected_christmas_2.jpg"
+            },
+            {
+                path:"golf_course_shipping_container.jpg"
+            }
+        ]
     }
 ];
