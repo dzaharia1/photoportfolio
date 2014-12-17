@@ -100,29 +100,32 @@ var albumList = [
     {
         displayName:"Golf Course",
         location:"Austin, TX",
-        cover: "",
+        cover: "/img/golf_course_reflected_christmas_1.jpg",
         visible: "false",
         photos:[
             {
-                path:"golf_course_dot_reflect.jpg"
+                path:"/img/golf_course_dot_reflect.jpg"
             },
             {
-                path:"golf_course_night_barn.jpg"
+                path:"/img/golf_course_night_barn.jpg"
             },
             {
-                path:"golf_course_photographer.jpg"
+                path:"/img/golf_course_photographer.jpg"
             },
             {
-                path:"golf_course_reflected_christmas.jpg"
+                path:"/img/golf_course_reflected_christmas.jpg"
             },
             {
-                path:"golf_course_reflected_christmas_1.jpg"
+                path:"/img/golf_course_reflected_christmas_1.jpg"
             },
             {
-                path:"golf_course_reflected_christmas_2.jpg"
+                path:"/img/golf_course_reflected_christmas_2.jpg"
             },
             {
-                path:"golf_course_shipping_container.jpg"
+                path:"/img/golf_course_shipping_container.jpg"
+            },
+            {
+                path:"/img/golf_course_pipe.jpg"
             }
         ]
     }
