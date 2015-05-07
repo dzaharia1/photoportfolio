@@ -121,11 +121,11 @@ aside {
   .galleryList .galleryImage {
     width: 90%;
     text-decoration: none;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     background-color: #000; }
     .galleryList .galleryImage img {
       max-width: 100%;
-      max-height: 80vh;
+      max-height: 90vh;
       border: 1px #1c1c1c solid; }
 
 footer {
