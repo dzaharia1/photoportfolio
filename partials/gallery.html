@@ -6,7 +6,7 @@
                 <aside>{{currAlbum.location}}</aside>
             </div>
         </div>
-        <a href="{{photo.path}}" target="_blank" class="galleryImage" ng-repeat="photo in currAlbum.photos | orderBy:random">
+        <a href="{{photo.path}}" target="_blank" class="galleryImage" ng-repeat="photo in currAlbum.photos">
             <img src="{{photo.path}}" alt="">
         </a>
     </section>
