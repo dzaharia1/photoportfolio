@@ -3,7 +3,7 @@ var app = express();
 
 app.use(express.static(__dirname + '/', {extensions:['html']}));
 
-var port = (process.env.VCAP_APP_PORT || '4000');
+var port = (process.env.PORT || '4000');
 
 app.get('/', function (req, res) {
   res.sendFile('index.html');
