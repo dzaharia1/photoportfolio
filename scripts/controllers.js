@@ -15,10 +15,6 @@ portfolio.config(function ($routeProvider) {
 albumController = function ($scope) {
     //    controller logic
     $scope.albums = albumList;
-    console.log('album');
-    $scope.random = function(){
-        return .5-Math.random();
-    }
 };
 
 galleryController = function ($scope, $routeParams) {
@@ -28,9 +24,6 @@ galleryController = function ($scope, $routeParams) {
         if (albumList[i].displayName == albumLabel){
             $scope.currAlbum = albumList[i];
         }
-    }
-    $scope.random = function(){
-        return .5-Math.random();
     }
 };
 
