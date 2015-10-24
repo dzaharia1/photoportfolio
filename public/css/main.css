@@ -1,22 +1,22 @@
 .fontLight, aside {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: lighter;
-  letter-spacing: 0.1em; }
+  letter-spacing: .1em; }
 
 .fontMedium {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: normal;
-  letter-spacing: 0.2em; }
+  letter-spacing: .2em; }
 
 .fontBold, footer h1 {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
-  letter-spacing: 0.2em; }
+  letter-spacing: .2em; }
 
 .fontBlack, h2, p {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bolder;
-  letter-spacing: 0.2em; }
+  letter-spacing: .2em; }
 
 body {
   -moz-box-sizing: border-box;
@@ -37,12 +37,12 @@ a {
   text-decoration: none; }
 
 p {
-  font-size: 0.8em;
+  font-size: .8em;
   margin: 0; }
 
 aside {
   text-transform: uppercase;
-  font-size: 0.75em;
+  font-size: .75em;
   margin: 0; }
 
 .viewWindow {
@@ -143,34 +143,29 @@ footer {
     width: 100%;
     margin: 0;
     padding: 0;
-    font-size: 0.8em;
+    font-size: .8em;
     text-transform: uppercase;
     color: #fff;
-    letter-spacing: 0.45em; }
+    letter-spacing: .45em; }
 
 @media screen and (min-width: 600px) {
   .albumList {
     width: 60%; }
-
   .galleryList .galleryCover {
     height: 40vh; }
   .galleryList .galleryImage img {
     max-width: 80%; }
-
   footer h1 {
     font-size: 1.2em;
-    letter-spacing: 0.7em; }
- }
+    letter-spacing: .7em; } }
 
 @media (min-width: 1000px) {
   .albumList {
     width: 700px; }
-
   .galleryImage {
     margin-bottom: 60px; }
     .galleryImage img {
-      max-width: 1024px; }
- }
+      max-width: 1024px; } }
 
 .horizontalFlexCenter, .albumList .albumTile .cover {
   display: -webkit-flex;
