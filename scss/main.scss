@@ -1,5 +1,10 @@
 @import "_fonts";
 @import "_values";
+
+* {
+  box-sizing: border-box;
+}
+
  html,
 body {} body {
     box-sizing: border-box;
