@@ -2,7 +2,7 @@ var albumList = [
   {
     "displayName": "Colorado",
     "location": "",
-    "cover": "",
+    "cover": "/img/colorado_windshield_rocks.jpg",
     "visible": "true",
     "photos": [
       { "path": "/img/colorado_airbnb_view.jpg" },
