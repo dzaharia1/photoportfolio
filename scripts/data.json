@@ -12,7 +12,7 @@ var albumList = [
       { "path": "/img/colorado_lauren_window.jpg" },
       { "path": "/img/colorado_scale.jpg" },
       { "path": "/img/colorado_traveler.jpg" },
-      { "path": "/img/colorado_windshield_rocks.jpg" },
+      { "path": "/img/colorado_windshield_rocks.jpg" }
     ]
   },
   {
