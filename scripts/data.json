@@ -5,7 +5,7 @@ var albumList = [
     "cover": "",
     "visible": "true",
     "photos": [
-      { "path": "/img/colorado_airbnb_view.jpb" },
+      { "path": "/img/colorado_airbnb_view.jpg" },
       { "path": "/img/colorado_bluffs.jpg" },
       { "path": "/img/colorado_fence.jpg" },
       { "path": "/img/colorado_finishing_hike.jpg" },
