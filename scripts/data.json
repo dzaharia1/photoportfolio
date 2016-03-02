@@ -1,168 +1,182 @@
 var albumList = [
-    {
-        displayName: "Hong Kong",
-        location: "",
-        cover: "/img/hong_kong_skyline.jpg",
-        visible: "true",
-        photos: [
-            { path:"/img/hong_kong_signs.jpg" },
-            { path:"/img/hong_kong_night_signs.jpg" },
-            { path:"/img/hong_kong_butcher.jpg" },
-            { path:"/img/hong_kong_market_wide.jpg" },
-            { path:"/img/hong_kong_market_aisle.jpg" },
-            { path:"/img/hong_kong_dragon_center.jpg" },
-            { path:"/img/hong_kong_mall.jpg" },
-            { path:"/img/hong_kong_drying_clothes.jpg" },
-            { path:"/img/hong_kong_eclectic.jpg" },
-            { path:"/img/hong_kong_mong_kok_apartment.jpg" },
-            { path:"/img/hong_kong_residential.jpg" },
-            { path:"/img/hong_kong_platform_shack.jpg" },
-            { path:"/img/hong_kong_weird_building.jpg" },
-            { path:"/img/hong_kong_scaffolding.jpg" },
-            { path:"/img/hong_kong_buildings.jpg" },
-            { path:"/img/hong_kong_rush_hour.jpg" },
-            { path:"/img/hong_kong_construction.jpg" },
-            { path:"/img/hong_kong_graffiti.jpg" },
-            { path:"/img/hong_kong_mosque_stairs.jpg" },
-            { path:"/img/hong_kong_peel_fresco.jpg" },
-            { path:"/img/hong_kong_protest.jpg" },
-            { path:"/img/hong_kong_im_pei.jpg" },
-            { path:"/img/hong_kong_hsbc_detail.jpg" },
-            { path:"/img/hong_kong_hsbc_night.jpg" },
-            { path:"/img/hong_kong_soho.jpg" },
-            { path:"/img/hong_kong_street_vendor.jpg" },
-            { path:"/img/hong_kong_temple.jpg" },
-            { path:"/img/hong_kong_peak.jpg" }
-        ]
-    },
-    {
-        displayName:"Pedernales Falls State Park",
-        location:"Johnson City, TX",
-        cover: "",
-        visible:"false",
-        photos:[
-        ]
-    },
+  {
+    "displayName": "Colorado",
+    "location": "",
+    "cover": "",
+    "visible": "true",
+    "photos": [
+      { "path": "/img/colorado_airbnb_view.jpb" },
+      { "path": "/img/colorado_bluffs.jpg" },
+      { "path": "/img/colorado_fence.jpg" },
+      { "path": "/img/colorado_finishing_hike.jpg" },
+      { "path": "/img/colorado_lauren_window.jpg" },
+      { "path": "/img/colorado_scale.jpg" },
+      { "path": "/img/colorado_traveler.jpg" },
+      { "path": "/img/colorado_windshield_rocks.jpg" },
+    ]
+  },
+  {
+    "displayName": "Hong Kong",
+    "location": "",
+    "cover": "/img/hong_kong_skyline.jpg",
+    "visible": "true",
+    "photos": [
+      { "path":"/img/hong_kong_signs.jpg" },
+      { "path":"/img/hong_kong_night_signs.jpg" },
+      { "path":"/img/hong_kong_butcher.jpg" },
+      { "path":"/img/hong_kong_market_wide.jpg" },
+      { "path":"/img/hong_kong_market_aisle.jpg" },
+      { "path":"/img/hong_kong_dragon_center.jpg" },
+      { "path":"/img/hong_kong_mall.jpg" },
+      { "path":"/img/hong_kong_drying_clothes.jpg" },
+      { "path":"/img/hong_kong_eclectic.jpg" },
+      { "path":"/img/hong_kong_mong_kok_apartment.jpg" },
+      { "path":"/img/hong_kong_residential.jpg" },
+      { "path":"/img/hong_kong_platform_shack.jpg" },
+      { "path":"/img/hong_kong_weird_building.jpg" },
+      { "path":"/img/hong_kong_scaffolding.jpg" },
+      { "path":"/img/hong_kong_buildings.jpg" },
+      { "path":"/img/hong_kong_rush_hour.jpg" },
+      { "path":"/img/hong_kong_construction.jpg" },
+      { "path":"/img/hong_kong_graffiti.jpg" },
+      { "path":"/img/hong_kong_mosque_stairs.jpg" },
+      { "path":"/img/hong_kong_peel_fresco.jpg" },
+      { "path":"/img/hong_kong_protest.jpg" },
+      { "path":"/img/hong_kong_im_pei.jpg" },
+      { "path":"/img/hong_kong_hsbc_detail.jpg" },
+      { "path":"/img/hong_kong_hsbc_night.jpg" },
+      { "path":"/img/hong_kong_soho.jpg" },
+      { "path":"/img/hong_kong_street_vendor.jpg" },
+      { "path":"/img/hong_kong_temple.jpg" },
+      { "path":"/img/hong_kong_peak.jpg" }
+    ]
+  },
+  {
+    "displayName":"Pedernales Falls State Park",
+    "location":"Johnson City, TX",
+    "cover": "",
+    "visible":"false",
+    "photos":[
+    ]
+  },
+  {
+    "displayName":"Bull Creek District Park",
+    "location":"Austin, TX",
+    "cover": "/img/bull_creek_waterfall.jpg",
+    "visible":"true",
+    "photos":[
+      {
+        "path":"/img/bull_creek_roots.jpg"
+      },
+      {
+        "path":"/img/bull_creek_corrosion.jpg"
+      },
+      {
+        "path":"/img/bull_creek_waterfall.jpg"
+      },
+      {
+        "path":"/img/bull_creek_gradient_stream.jpg"
+      },
+      {
+        "path":"/img/bull_creek_christmas_tree.jpg"
+      },
+      {
+        "path":"/img/bull_creek_rock_hole.jpg"
+      },
+      {
+        "path":"/img/bull_creek_dead_roots.jpg"
+      },
+      {
+        "path":"/img/bull_creek_leaf_cluster.jpg"
+      }
+    ]
+  },
 
 
-    {
-        displayName:"Bull Creek District Park",
-        location:"Austin, TX",
-        cover: "/img/bull_creek_waterfall.jpg",
-        visible:"true",
-        photos:[
-            {
-                path:"/img/bull_creek_roots.jpg"
-            },
-            {
-                path:"/img/bull_creek_corrosion.jpg"
-            },
-            {
-                path:"/img/bull_creek_waterfall.jpg"
-            },
-            {
-                path:"/img/bull_creek_gradient_stream.jpg"
-            },
-            {
-                path:"/img/bull_creek_christmas_tree.jpg"
-            },
-            {
-                path:"/img/bull_creek_rock_hole.jpg"
-            },
-            {
-                path:"/img/bull_creek_dead_roots.jpg"
-            },
-            {
-                path:"/img/bull_creek_leaf_cluster.jpg"
-            }
-        ]
-    },
+  {
+      "displayName":"Barton Creek Trail",
+      "location":"Austin, TX",
+      "cover": "/img/barton_floating_leaf.jpg",
+      "visible":"true",
+      "photos":[
+          {
+              "path":"/img/barton_cliff_tree.jpg"
+          },
+          {
+              "path":"/img/barton_creek.jpg"
+          },
+          {
+              "path":"/img/barton_floating_leaf.jpg"
+          },
+          {
+              "path":"/img/barton_tree_shadow.jpg"
+          },
+          {
+              "path":"/img/barton_wet_leaves.jpg"
+          }
+
+      ]
+  },
 
 
-    {
-        displayName:"Barton Creek Trail",
-        location:"Austin, TX",
-        cover: "/img/barton_floating_leaf.jpg",
-        visible:"true",
-        photos:[
-            {
-                path:"/img/barton_cliff_tree.jpg"
-            },
-            {
-                path:"/img/barton_creek.jpg"
-            },
-            {
-                path:"/img/barton_floating_leaf.jpg"
-            },
-            {
-                path:"/img/barton_tree_shadow.jpg"
-            },
-            {
-                path:"/img/barton_wet_leaves.jpg"
-            }
+  {
+      "displayName":"Enchanted Rock",
+      "location":"Llano, TX",
+      "cover": "/img/enchanted_rock_bush_sunset.jpg",
+      "visible":"true",
+      "photos":[
+          {
+              "path":"/img/enchanted_rock_guys_sitting.jpg"
+          },
+          {
+              "path":"/img/enchanted_rock_sillhouette.jpg"
+          },
+          {
+              "path":"/img/enchanted_rock_macro.jpg"
+          },
+          {
+              "path":"/img/enchanted_rock_rock_history.jpg"
+          },
+          {
+              "path":"/img/enchanted_rock_guys_standing.jpg"
+          },
+          {
+              "path":"/img/enchanted_rock_bush_sunset.jpg"
+          }
 
-        ]
-    },
+      ]
+  },
 
-
-    {
-        displayName:"Enchanted Rock",
-        location:"Llano, TX",
-        cover: "/img/enchanted_rock_bush_sunset.jpg",
-        visible:"true",
-        photos:[
-            {
-                path:"/img/enchanted_rock_guys_sitting.jpg"
-            },
-            {
-                path:"/img/enchanted_rock_sillhouette.jpg"
-            },
-            {
-                path:"/img/enchanted_rock_macro.jpg"
-            },
-            {
-                path:"/img/enchanted_rock_rock_history.jpg"
-            },
-            {
-                path:"/img/enchanted_rock_guys_standing.jpg"
-            },
-            {
-                path:"/img/enchanted_rock_bush_sunset.jpg"
-            }
-
-        ]
-    },
-    
-    {
-        displayName:"Golf Course",
-        location:"Austin, TX",
-        cover: "/img/golf_course_reflected_christmas_1.jpg",
-        visible: "false",
-        photos:[
-            {
-                path:"/img/golf_course_dot_reflect.jpg"
-            },
-            {
-                path:"/img/golf_course_night_barn.jpg"
-            },
-            {
-                path:"/img/golf_course_photographer.jpg"
-            },
-            {
-                path:"/img/golf_course_reflected_christmas.jpg"
-            },
-            {
-                path:"/img/golf_course_reflected_christmas_1.jpg"
-            },
-            {
-                path:"/img/golf_course_reflected_christmas_2.jpg"
-            },
-            {
-                path:"/img/golf_course_shipping_container.jpg"
-            },
-            {
-                path:"/img/golf_course_pipe.jpg"
-            }
-        ]
-    }
+  {
+      "displayName":"Golf Course",
+      "location":"Austin, TX",
+      "cover": "/img/golf_course_reflected_christmas_1.jpg",
+      "visible": "false",
+      "photos":[
+          {
+              "path":"/img/golf_course_dot_reflect.jpg"
+          },
+          {
+              "path":"/img/golf_course_night_barn.jpg"
+          },
+          {
+              "path":"/img/golf_course_photographer.jpg"
+          },
+          {
+              "path":"/img/golf_course_reflected_christmas.jpg"
+          },
+          {
+              "path":"/img/golf_course_reflected_christmas_1.jpg"
+          },
+          {
+              "path":"/img/golf_course_reflected_christmas_2.jpg"
+          },
+          {
+              "path":"/img/golf_course_shipping_container.jpg"
+          },
+          {
+              "path":"/img/golf_course_pipe.jpg"
+          }
+      ]
+  }
 ];
