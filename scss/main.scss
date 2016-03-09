@@ -122,9 +122,10 @@ aside {
         margin-bottom: 30px;
         background-color: $black;
         img {
-            max-width: 100%;
-            max-height: 90vh;
-            border: 1px #1c1c1c solid;
+          max-width: 100%;
+          max-height: 90vh;
+          min-height: 0;
+          border: 1px #1c1c1c solid;
         }
     }
 }
