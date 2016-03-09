@@ -1,7 +1,7 @@
 var albumList = [
   {
     "displayName": "Colorado",
-    "location": "",
+    "location": "Denver | Boulder | Nederland",
     "cover": "/img/colorado_windshield_rocks.jpg",
     "visible": "true",
     "photos": [
